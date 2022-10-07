@@ -3,6 +3,16 @@
   font-family: 'Libre Baskerville';
 }
 
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: fit-content;
+    gap: 40px;
+    a{
+      width: fit-content;
+    }}
+
 
 .previewBTN{
   background: #000000;
