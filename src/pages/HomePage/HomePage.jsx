@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import PaintCard from "../../Components/PaintCard/PaintCard";
-import data from '../../data' 
+import data from '../../data.json' 
 import './style.scss'
 
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState }   from"react";
 import { Link,  useParams } from "react-router-dom";
-import data from '../../../src/data.json'
+import data from '../../data.json'
 import Preview from "../Preview/Preview";
 import './style.scss'
 
@@ -118,7 +118,7 @@ export default PaintPage
 //     "name": "Vincent Van Gogh"
 //   },
 //   "images": {
-//     "thumbnail": "./assets/starry-night/thumbnail.jpg",
+//     "thumbnail": "/assets/starry-night/thumbnail.jpg",
 //     "hero": {
 //       "small": "./assets/starry-night/hero-small.jpg",
 //       "large": "./assets/starry-night/hero-large.jpg"

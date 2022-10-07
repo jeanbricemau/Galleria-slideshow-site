@@ -12,9 +12,9 @@ const App = () => {
   return (
     <>  
       <NavBar/>
-      <Routes>
-        <Route  path='/'  element={<HomePage/>}/>
-        <Route   path=':name' element={<PaintPage info={useParams} />} />
+      <Routes >
+        <Route  path='/react-gh-pages'  element={<HomePage/>}/>
+        <Route   path='react-gh-pages/:name' element={<PaintPage info={useParams} />} />
       </Routes>
       
 
