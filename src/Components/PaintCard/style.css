@@ -1,0 +1,66 @@
+.paintCard {
+  font-family: "Libre Baskerville";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  opacity: 1;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+  z-index: 1;
+  background-size: cover;
+  background-position: center center;
+}
+
+.paintCard .name {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 55px 32px;
+  gap: 7px;
+  z-index: 2;
+  height: 170px !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.841672)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.841672) 100%);
+}
+
+.paintCard .name .paintName {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.paintCard .name .artisteName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.paintCard:hover {
+  opacity: .5;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+}
+/*# sourceMappingURL=style.css.map */

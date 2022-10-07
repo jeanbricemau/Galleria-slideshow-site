@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100% ;
+  align-items: center;
+  padding: 40px; 
+  margin-bottom:24px ;
+  border-bottom:  1px solid #E5E5E5;;
+  a {
+    width: fit-content;
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: right;
+    letter-spacing: 1.92857px;
+    color: #7D7D7D;
+    text-decoration: none;
+    transition: all 300ms;
+
+    &:hover{
+      color: #000000;
+      transition: all 300ms;
+    }
+
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  nav {
+    a {
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      /* identical to box height */
+
+      text-align: right;
+      letter-spacing: 2.57143px;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.paintCard {
+  font-family: "Libre Baskerville";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  opacity: 1;
+  transition: all 150ms ease-in;
+  z-index: 1;
+  background-size: cover;
+  background-position: center center;
+
+  .name {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 55px 32px;
+    gap: 7px;
+    z-index: 2;
+    height: 170px !important; 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.841672) 100%);
+
+    
+    .paintName {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color: #FFFFFF;
+      text-decoration: none;
+
+      text-decoration: none !important;
+    }
+
+    .artisteName {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.75;
+    }
+  }
+
+  &:hover{
+    opacity: .5;
+    transition: all 150ms ease-in;
+  }
+}
